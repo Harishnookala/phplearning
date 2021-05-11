@@ -12,7 +12,7 @@
 <body>
 
 
-<div class= "wrapper" >
+<div class= "container" >
     <div class="row">
         <div class="col-lg-3">
     <form action="signup.php" method="post">
@@ -41,10 +41,10 @@
             <label for="password"><b>Password</b></label>
             <input class="form-control" type="password" name="password" required>
         </div><br>
-        <a href="login.php" class="col-sm-6" >
-            <input class="btn btn-primary form-control"  type="submit" name="create" value=" Sign Up">
+        <a  class="col-sm-6" type="button" >
+            <input class="btn btn-primary form-control"  type="submit" name="create" value="Sign Up">
         </a>
-        <br>
+        <br><br>
         <p> Already a member  <a href = "login.php">Sign In</a></p>
     </form>
         </div>
