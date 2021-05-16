@@ -32,7 +32,10 @@
              <div <?php if (isset($email_valid)): ?> class="form_error" <?php endif ?> >
                  <?php if (isset($email_valid)): ?>
                      <span><?php echo "<h5 class='email_invalid' STYLE=''>$email_valid</h5>" ?></span>
-                 <?php endif ?>             </div>
+                 <?php endif ?>
+             </div>
+             <p style="font-size: 19px"> Not a member  <a href = "signup.php">Sign Up</a></p>
+
          </form>
        </div>
    </div>

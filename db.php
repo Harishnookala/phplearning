@@ -48,7 +48,6 @@ $email_valid = "";
    if(isset($_POST['login'])){
        $email  = $_POST['email'];
        $password = $_POST['password'];
-
        $login_query = "SELECT * FROM phptutorial.signup WHERE email='$email'
 AND password='$password'";
        $result = mysqli_query($conn,$login_query);
@@ -61,7 +60,7 @@ AND password='$password'";
             $value = $row[0] ? : false;
             session_start();
             $_SESSION['username'] = $value;
-              header("location:index.php");
+              header("location:header.php");
        }
        else{
            $email_valid = "Your Email_id or Password is not valid";
