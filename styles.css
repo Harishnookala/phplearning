@@ -9,7 +9,11 @@
  body {
      font-family: "Lato", sans-serif;
  }
-
+.profile{
+    font-size: 30px;
+    color:white;
+    cursor: pointer;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -67,6 +71,18 @@
     text-align: center;
 
 }
+.headings{
+    color: white;
+    text-decoration: unset;
+    font-size: 21px;
+    font-weight:500;
+    font-family: sans-serif;
+}
+.headings:hover {
+    color: white;
+    text-decoration: unset;
+}
+
 
 
 
