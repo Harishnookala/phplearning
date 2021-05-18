@@ -13,6 +13,8 @@
     font-size: 30px;
     color:white;
     cursor: pointer;
+    margin-left: 20px;
+    padding-top: 20px;
 }
 .sidenav {
     height: 100%;
@@ -78,11 +80,25 @@
     font-weight:500;
     font-family: sans-serif;
 }
+.heading_style{
+    margin-top: 12px;
+    padding-bottom: 15px;
+}
 .headings:hover {
     color: white;
     text-decoration: unset;
 }
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: -15px;
+}
 
 
 
-
+@media screen and (max-width: 480px) {
+    .headings{
+        font-size: 15px;
+    }
+}
